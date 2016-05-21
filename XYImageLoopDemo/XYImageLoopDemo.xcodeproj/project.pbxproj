@@ -13,11 +13,6 @@
 		B73A76321CF04F3F00E86393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73A76301CF04F3F00E86393 /* Main.storyboard */; };
 		B73A76341CF04F3F00E86393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73A76331CF04F3F00E86393 /* Assets.xcassets */; };
 		B73A76371CF04F3F00E86393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73A76351CF04F3F00E86393 /* LaunchScreen.storyboard */; };
-		B73A76451CF04F5900E86393 /* XYLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76401CF04F5900E86393 /* XYLoopView.m */; };
-		B73A76461CF04F5900E86393 /* XYLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76421CF04F5900E86393 /* XYLoopViewCell.m */; };
-		B73A76471CF04F5900E86393 /* XYWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76441CF04F5900E86393 /* XYWeakTimerTarget.m */; };
-		B73A76691CF0510800E86393 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B73A76491CF0510800E86393 /* LICENSE */; };
-		B73A766A1CF0510800E86393 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B73A764A1CF0510800E86393 /* README.md */; };
 		B73A766B1CF0510800E86393 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A764D1CF0510800E86393 /* NSData+ImageContentType.m */; };
 		B73A766C1CF0510800E86393 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A764F1CF0510800E86393 /* SDImageCache.m */; };
 		B73A766D1CF0510800E86393 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76511CF0510800E86393 /* SDWebImageCompat.m */; };
@@ -32,6 +27,9 @@
 		B73A76761CF0510800E86393 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76641CF0510800E86393 /* UIImageView+HighlightedWebCache.m */; };
 		B73A76771CF0510800E86393 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76661CF0510800E86393 /* UIImageView+WebCache.m */; };
 		B73A76781CF0510800E86393 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76681CF0510800E86393 /* UIView+WebCacheOperation.m */; };
+		B73A76801CF0566000E86393 /* XYLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A767B1CF0566000E86393 /* XYLoopView.m */; };
+		B73A76811CF0566000E86393 /* XYLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A767D1CF0566000E86393 /* XYLoopViewCell.m */; };
+		B73A76821CF0566000E86393 /* XYWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A767F1CF0566000E86393 /* XYWeakTimerTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,14 +43,6 @@
 		B73A76331CF04F3F00E86393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B73A76361CF04F3F00E86393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B73A76381CF04F3F00E86393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B73A763F1CF04F5900E86393 /* XYLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopView.h; sourceTree = "<group>"; };
-		B73A76401CF04F5900E86393 /* XYLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopView.m; sourceTree = "<group>"; };
-		B73A76411CF04F5900E86393 /* XYLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopViewCell.h; sourceTree = "<group>"; };
-		B73A76421CF04F5900E86393 /* XYLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopViewCell.m; sourceTree = "<group>"; };
-		B73A76431CF04F5900E86393 /* XYWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWeakTimerTarget.h; sourceTree = "<group>"; };
-		B73A76441CF04F5900E86393 /* XYWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWeakTimerTarget.m; sourceTree = "<group>"; };
-		B73A76491CF0510800E86393 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B73A764A1CF0510800E86393 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B73A764C1CF0510800E86393 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		B73A764D1CF0510800E86393 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		B73A764E1CF0510800E86393 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -82,6 +72,12 @@
 		B73A76661CF0510800E86393 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		B73A76671CF0510800E86393 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		B73A76681CF0510800E86393 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		B73A767A1CF0566000E86393 /* XYLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopView.h; sourceTree = "<group>"; };
+		B73A767B1CF0566000E86393 /* XYLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopView.m; sourceTree = "<group>"; };
+		B73A767C1CF0566000E86393 /* XYLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopViewCell.h; sourceTree = "<group>"; };
+		B73A767D1CF0566000E86393 /* XYLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopViewCell.m; sourceTree = "<group>"; };
+		B73A767E1CF0566000E86393 /* XYWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWeakTimerTarget.h; sourceTree = "<group>"; };
+		B73A767F1CF0566000E86393 /* XYWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWeakTimerTarget.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				B73A76481CF0510800E86393 /* SDWebImage */,
-				B73A763E1CF04F5900E86393 /* ImageLoop */,
 				B73A762A1CF04F3F00E86393 /* AppDelegate.h */,
 				B73A762B1CF04F3F00E86393 /* AppDelegate.m */,
 				B73A762D1CF04F3F00E86393 /* ViewController.h */,
@@ -137,24 +132,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B73A763E1CF04F5900E86393 /* ImageLoop */ = {
-			isa = PBXGroup;
-			children = (
-				B73A763F1CF04F5900E86393 /* XYLoopView.h */,
-				B73A76401CF04F5900E86393 /* XYLoopView.m */,
-				B73A76411CF04F5900E86393 /* XYLoopViewCell.h */,
-				B73A76421CF04F5900E86393 /* XYLoopViewCell.m */,
-				B73A76431CF04F5900E86393 /* XYWeakTimerTarget.h */,
-				B73A76441CF04F5900E86393 /* XYWeakTimerTarget.m */,
-			);
-			path = ImageLoop;
-			sourceTree = "<group>";
-		};
 		B73A76481CF0510800E86393 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				B73A76491CF0510800E86393 /* LICENSE */,
-				B73A764A1CF0510800E86393 /* README.md */,
+				B73A76791CF0566000E86393 /* ImageLoop */,
 				B73A764B1CF0510800E86393 /* SDWebImage */,
 			);
 			path = SDWebImage;
@@ -194,6 +175,19 @@
 				B73A76681CF0510800E86393 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		B73A76791CF0566000E86393 /* ImageLoop */ = {
+			isa = PBXGroup;
+			children = (
+				B73A767A1CF0566000E86393 /* XYLoopView.h */,
+				B73A767B1CF0566000E86393 /* XYLoopView.m */,
+				B73A767C1CF0566000E86393 /* XYLoopViewCell.h */,
+				B73A767D1CF0566000E86393 /* XYLoopViewCell.m */,
+				B73A767E1CF0566000E86393 /* XYWeakTimerTarget.h */,
+				B73A767F1CF0566000E86393 /* XYWeakTimerTarget.m */,
+			);
+			path = ImageLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +250,6 @@
 			files = (
 				B73A76371CF04F3F00E86393 /* LaunchScreen.storyboard in Resources */,
 				B73A76341CF04F3F00E86393 /* Assets.xcassets in Resources */,
-				B73A76691CF0510800E86393 /* LICENSE in Resources */,
 				B73A76321CF04F3F00E86393 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,25 +262,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73A762F1CF04F3F00E86393 /* ViewController.m in Sources */,
+				B73A76801CF0566000E86393 /* XYLoopView.m in Sources */,
 				B73A76761CF0510800E86393 /* UIImageView+HighlightedWebCache.m in Sources */,
 				B73A76771CF0510800E86393 /* UIImageView+WebCache.m in Sources */,
 				B73A76711CF0510800E86393 /* SDWebImageManager.m in Sources */,
 				B73A766C1CF0510800E86393 /* SDImageCache.m in Sources */,
 				B73A76701CF0510800E86393 /* SDWebImageDownloaderOperation.m in Sources */,
-				B73A76471CF04F5900E86393 /* XYWeakTimerTarget.m in Sources */,
 				B73A76731CF0510800E86393 /* UIButton+WebCache.m in Sources */,
 				B73A766B1CF0510800E86393 /* NSData+ImageContentType.m in Sources */,
 				B73A76721CF0510800E86393 /* SDWebImagePrefetcher.m in Sources */,
 				B73A76781CF0510800E86393 /* UIView+WebCacheOperation.m in Sources */,
 				B73A766F1CF0510800E86393 /* SDWebImageDownloader.m in Sources */,
-				B73A76451CF04F5900E86393 /* XYLoopView.m in Sources */,
 				B73A766E1CF0510800E86393 /* SDWebImageDecoder.m in Sources */,
-				B73A766A1CF0510800E86393 /* README.md in Sources */,
+				B73A76811CF0566000E86393 /* XYLoopViewCell.m in Sources */,
 				B73A762C1CF04F3F00E86393 /* AppDelegate.m in Sources */,
 				B73A766D1CF0510800E86393 /* SDWebImageCompat.m in Sources */,
-				B73A76461CF04F5900E86393 /* XYLoopViewCell.m in Sources */,
 				B73A76291CF04F3F00E86393 /* main.m in Sources */,
 				B73A76751CF0510800E86393 /* UIImage+MultiFormat.m in Sources */,
+				B73A76821CF0566000E86393 /* XYWeakTimerTarget.m in Sources */,
 				B73A76741CF0510800E86393 /* UIImage+GIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +427,7 @@
 				B73A763D1CF04F3F00E86393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
