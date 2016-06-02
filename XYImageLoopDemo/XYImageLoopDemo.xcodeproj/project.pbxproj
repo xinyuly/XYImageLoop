@@ -110,7 +110,8 @@
 		B73A76261CF04F3F00E86393 /* XYImageLoopDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B73A76481CF0510800E86393 /* SDWebImage */,
+				B73A764B1CF0510800E86393 /* SDWebImage */,
+				B73A76791CF0566000E86393 /* ImageLoop */,
 				B73A762A1CF04F3F00E86393 /* AppDelegate.h */,
 				B73A762B1CF04F3F00E86393 /* AppDelegate.m */,
 				B73A762D1CF04F3F00E86393 /* ViewController.h */,
@@ -130,15 +131,6 @@
 				B73A76281CF04F3F00E86393 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B73A76481CF0510800E86393 /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				B73A76791CF0566000E86393 /* ImageLoop */,
-				B73A764B1CF0510800E86393 /* SDWebImage */,
-			);
-			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 		B73A764B1CF0510800E86393 /* SDWebImage */ = {
@@ -174,7 +166,8 @@
 				B73A76671CF0510800E86393 /* UIView+WebCacheOperation.h */,
 				B73A76681CF0510800E86393 /* UIView+WebCacheOperation.m */,
 			);
-			path = SDWebImage;
+			name = SDWebImage;
+			path = SDWebImage/SDWebImage;
 			sourceTree = "<group>";
 		};
 		B73A76791CF0566000E86393 /* ImageLoop */ = {
@@ -187,7 +180,8 @@
 				B73A767E1CF0566000E86393 /* XYWeakTimerTarget.h */,
 				B73A767F1CF0566000E86393 /* XYWeakTimerTarget.m */,
 			);
-			path = ImageLoop;
+			name = ImageLoop;
+			path = SDWebImage/ImageLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
