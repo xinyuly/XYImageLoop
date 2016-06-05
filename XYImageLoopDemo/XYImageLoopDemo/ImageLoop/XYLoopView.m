@@ -137,6 +137,11 @@
     if (currentPage % self.imgSrcs.count == 0) {
         scrollView.contentOffset = CGPointMake(self.imgSrcs.count * scrollView.bounds.size.width, 0);
     }
+    //如果最后一张
+    if (currentPage+1 == self.imgSrcs.count*3 &&self.imgSrcs.count!=1) {
+        self.collectionView.contentOffset = CGPointMake(self.imgSrcs.count *self.collectionView.bounds.size.width, 0);
+    }
+
         self.pageControl.currentPage = currentPage % self.imgSrcs.count;
 }
 
@@ -168,8 +173,9 @@
 }
 
 - (void)nextImage {
+    
     NSInteger currentPage = self.collectionView.contentOffset.x / self.collectionView.bounds.size.width;
-    [self.collectionView setContentOffset:CGPointMake((currentPage + 1) * self.collectionView.bounds.size.width, 0) animated:YES];
+        [self.collectionView setContentOffset:CGPointMake((currentPage + 1) * self.collectionView.bounds.size.width, 0) animated:YES];
 }
 
 @end

@@ -26,7 +26,7 @@
     }];
     [self.view addSubview:loopView];
     loopView.frame = self.view.frame;
-    loopView.timeInterval = 5.0;
+    loopView.timeInterval = 1.0;
     self.loopView = loopView;
     //使用说明：
     /**
