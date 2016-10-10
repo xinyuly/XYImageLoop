@@ -11,7 +11,9 @@
 @interface XYLoopView : UIView
 
 //播放时间
-@property (nonatomic, assign) NSTimeInterval timeInterval;
+@property (nonatomic, assign) NSTimeInterval timeInterval;//默认为3.0秒
+@property (nonatomic, assign) BOOL pageControlHidden;
+@property (nonatomic, strong) NSArray *showcaseList;
 /**
  *  创建图片轮播器
  *

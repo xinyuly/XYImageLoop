@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE41B2711DAB3B71009A504B /* XYLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B26C1DAB3B71009A504B /* XYLoopView.m */; };
+		AE41B2721DAB3B71009A504B /* XYLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B26E1DAB3B71009A504B /* XYLoopViewCell.m */; };
+		AE41B2731DAB3B71009A504B /* XYWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41B2701DAB3B71009A504B /* XYWeakTimerTarget.m */; };
 		B73A76291CF04F3F00E86393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76281CF04F3F00E86393 /* main.m */; };
 		B73A762C1CF04F3F00E86393 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A762B1CF04F3F00E86393 /* AppDelegate.m */; };
 		B73A762F1CF04F3F00E86393 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A762E1CF04F3F00E86393 /* ViewController.m */; };
@@ -27,12 +30,15 @@
 		B73A76761CF0510800E86393 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76641CF0510800E86393 /* UIImageView+HighlightedWebCache.m */; };
 		B73A76771CF0510800E86393 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76661CF0510800E86393 /* UIImageView+WebCache.m */; };
 		B73A76781CF0510800E86393 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A76681CF0510800E86393 /* UIView+WebCacheOperation.m */; };
-		B7CBD06E1D0062E4006FED9D /* XYLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CBD0691D0062E4006FED9D /* XYLoopView.m */; };
-		B7CBD06F1D0062E4006FED9D /* XYLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CBD06B1D0062E4006FED9D /* XYLoopViewCell.m */; };
-		B7CBD0701D0062E4006FED9D /* XYWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CBD06D1D0062E4006FED9D /* XYWeakTimerTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE41B26B1DAB3B71009A504B /* XYLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopView.h; sourceTree = "<group>"; };
+		AE41B26C1DAB3B71009A504B /* XYLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopView.m; sourceTree = "<group>"; };
+		AE41B26D1DAB3B71009A504B /* XYLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopViewCell.h; sourceTree = "<group>"; };
+		AE41B26E1DAB3B71009A504B /* XYLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopViewCell.m; sourceTree = "<group>"; };
+		AE41B26F1DAB3B71009A504B /* XYWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWeakTimerTarget.h; sourceTree = "<group>"; };
+		AE41B2701DAB3B71009A504B /* XYWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWeakTimerTarget.m; sourceTree = "<group>"; };
 		B73A76241CF04F3F00E86393 /* XYImageLoopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYImageLoopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73A76281CF04F3F00E86393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B73A762A1CF04F3F00E86393 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,12 +78,6 @@
 		B73A76661CF0510800E86393 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		B73A76671CF0510800E86393 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		B73A76681CF0510800E86393 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		B7CBD0681D0062E4006FED9D /* XYLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopView.h; sourceTree = "<group>"; };
-		B7CBD0691D0062E4006FED9D /* XYLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopView.m; sourceTree = "<group>"; };
-		B7CBD06A1D0062E4006FED9D /* XYLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoopViewCell.h; sourceTree = "<group>"; };
-		B7CBD06B1D0062E4006FED9D /* XYLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoopViewCell.m; sourceTree = "<group>"; };
-		B7CBD06C1D0062E4006FED9D /* XYWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWeakTimerTarget.h; sourceTree = "<group>"; };
-		B7CBD06D1D0062E4006FED9D /* XYWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWeakTimerTarget.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE41B26A1DAB3B71009A504B /* XYImageLoop */ = {
+			isa = PBXGroup;
+			children = (
+				AE41B26B1DAB3B71009A504B /* XYLoopView.h */,
+				AE41B26C1DAB3B71009A504B /* XYLoopView.m */,
+				AE41B26D1DAB3B71009A504B /* XYLoopViewCell.h */,
+				AE41B26E1DAB3B71009A504B /* XYLoopViewCell.m */,
+				AE41B26F1DAB3B71009A504B /* XYWeakTimerTarget.h */,
+				AE41B2701DAB3B71009A504B /* XYWeakTimerTarget.m */,
+			);
+			path = XYImageLoop;
+			sourceTree = "<group>";
+		};
 		B73A761B1CF04F3F00E86393 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +123,7 @@
 		B73A76261CF04F3F00E86393 /* XYImageLoopDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B7CBD0671D0062E4006FED9D /* ImageLoop */,
+				AE41B26A1DAB3B71009A504B /* XYImageLoop */,
 				B73A764B1CF0510800E86393 /* SDWebImage */,
 				B73A762A1CF04F3F00E86393 /* AppDelegate.h */,
 				B73A762B1CF04F3F00E86393 /* AppDelegate.m */,
@@ -170,19 +183,6 @@
 			path = SDWebImage/SDWebImage;
 			sourceTree = "<group>";
 		};
-		B7CBD0671D0062E4006FED9D /* ImageLoop */ = {
-			isa = PBXGroup;
-			children = (
-				B7CBD0681D0062E4006FED9D /* XYLoopView.h */,
-				B7CBD0691D0062E4006FED9D /* XYLoopView.m */,
-				B7CBD06A1D0062E4006FED9D /* XYLoopViewCell.h */,
-				B7CBD06B1D0062E4006FED9D /* XYLoopViewCell.m */,
-				B7CBD06C1D0062E4006FED9D /* XYWeakTimerTarget.h */,
-				B7CBD06D1D0062E4006FED9D /* XYWeakTimerTarget.m */,
-			);
-			path = ImageLoop;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,7 +214,7 @@
 				TargetAttributes = {
 					B73A76231CF04F3F00E86393 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 4QGB535X3S;
+						DevelopmentTeam = NQ6LQC28H4;
 					};
 				};
 			};
@@ -260,8 +260,8 @@
 				B73A76711CF0510800E86393 /* SDWebImageManager.m in Sources */,
 				B73A766C1CF0510800E86393 /* SDImageCache.m in Sources */,
 				B73A76701CF0510800E86393 /* SDWebImageDownloaderOperation.m in Sources */,
-				B7CBD06F1D0062E4006FED9D /* XYLoopViewCell.m in Sources */,
-				B7CBD0701D0062E4006FED9D /* XYWeakTimerTarget.m in Sources */,
+				AE41B2721DAB3B71009A504B /* XYLoopViewCell.m in Sources */,
+				AE41B2731DAB3B71009A504B /* XYWeakTimerTarget.m in Sources */,
 				B73A76731CF0510800E86393 /* UIButton+WebCache.m in Sources */,
 				B73A766B1CF0510800E86393 /* NSData+ImageContentType.m in Sources */,
 				B73A76721CF0510800E86393 /* SDWebImagePrefetcher.m in Sources */,
@@ -273,7 +273,7 @@
 				B73A76291CF04F3F00E86393 /* main.m in Sources */,
 				B73A76751CF0510800E86393 /* UIImage+MultiFormat.m in Sources */,
 				B73A76741CF0510800E86393 /* UIImage+GIF.m in Sources */,
-				B7CBD06E1D0062E4006FED9D /* XYLoopView.m in Sources */,
+				AE41B2711DAB3B71009A504B /* XYLoopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,10 +383,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XYImageLoopDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BNR.XYImageLoopDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -394,10 +397,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XYImageLoopDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BNR.XYImageLoopDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
